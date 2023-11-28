@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+$str = "I love programming!!!";
+$pattern = "/i/";
+echo preg_match($pattern, $str)."<br>";
+$pattern = "/i/i";
+echo preg_match_all($pattern, $str)."<br>";
+$pattern = "/programming/i"; //i-Case insensitive
+echo preg_replace($pattern, "books", $str)."<br>";
+?>
+</body>
+</html>
