@@ -1,0 +1,37 @@
+<html>
+<head><title>SELECTORS</title>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+$("p").click(function(){
+$("p").hide();
+});
+});
+$(document).ready(function(){
+$("h5").click(function(){
+$("#test").hide();
+});
+});
+$(document).ready(function(){
+$("h6").click(function(){
+$(".test").hide();
+});
+});
+$(document).ready(function(){
+$("button").click(function(){
+38
+$("h1,h2").hide();
+});
+});
+</script>
+<p>ELEMENT SELECTOR.</p>
+<h5 id="test">ID SELECTOR.</h5>
+<h6 class="test">CLASS SELECTOR.</h5>
+<h1>MULTIPLE</h1>
+<h2>SELECTOR</h2>
+<button>Click to perform Multiple Selector</button>
+</body>
+</html>
